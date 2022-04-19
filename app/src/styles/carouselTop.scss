@@ -1,0 +1,60 @@
+.slick-dots {
+  bottom: 10px !important;
+
+  li {
+    margin: 0.1rem;
+    width: 10px;
+    button {
+      margin: 0;
+      padding: 0;
+    }
+    button:before {
+      color: #99cccc;
+      opacity: 1;
+      content: " \25A0";
+      font-size: 1rem;
+    }
+  }
+  li.slick-active button:before {
+    color: #a2a28f;
+  }
+}
+
+.images {
+  color: white;
+  position: relative;
+  display: inline-block;
+  p {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    top: 50px;
+    left: 50px;
+  }
+  h5 {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    top: 65px;
+    left: 50px;
+  }
+  h4 {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    top: 90px;
+    left: 50px;
+    font-weight: bolder;
+  }
+  span {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    top: 400px;
+    left: 50px;
+    font-weight: bold;
+  }
+  a {
+    color: white;
+  }
+}
